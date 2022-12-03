@@ -1,0 +1,28 @@
+# class and objects
+
+# creating a class using class keyword with the name of person
+class person:
+    x=10
+    y=20
+    
+    # method definition of sum
+    def sum(self):
+        print("Sum:",self.x+self.y)
+
+# creating the object with the name of p1
+p1=person()
+# prining the values
+print(p1.x)
+print(p1.y)
+# call of method using object
+p1.sum()
+
+
+
+#   output
+
+"""
+10
+20
+Sum: 30
+"""
